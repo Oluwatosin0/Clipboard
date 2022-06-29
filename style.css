@@ -345,14 +345,14 @@ h2{
 
     .button{
         display: inline-block;
-        margin-left: 160px;
+        margin-left: 120px;
         margin-top: 30px;
         text-align: center;
         
     }
     
     h2{
-        width: 45%;
+        width: 50%;
         display: flex; 
         margin: auto;
         text-align: center;
@@ -360,7 +360,7 @@ h2{
     }
     
     .textB p{
-        width: 45%;
+        width: 50%;
         display: flex;
         margin: auto;
         text-align: center;
@@ -369,7 +369,7 @@ h2{
     }
     .textC img{
         width: 90%;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .textC{
@@ -379,7 +379,7 @@ h2{
     }
 
     .textD h3{
-        width: 35%;
+        width: 50%;
         display: flex;
         margin: auto;
         text-align: center;
@@ -395,7 +395,7 @@ h2{
 
     .textD img{
         width: 80%;
-        margin-left: 60px;
+        margin-left: 50px;
     }
 
     .textE h3{
@@ -415,46 +415,46 @@ h2{
 
     .textF .workflow {
         display: inline-block;
-        margin-left: 70px;
+        margin-left: 50px;
         text-align: center;
     }
 
     .textF .workflow1 img{
-        margin-left: -15px;  
+        margin-left: -2px;  
     }
     
     .textF .workflow2 img{
-        margin-left: -15px;
+        margin-left: -2px;
     }
     
     .textF .workflow3 img{
-        margin-left: -15px;
+        margin-left: -2px;
     }
 
         .textF .workflow1 h4{
-        margin-left: -10px;
+        margin-left: -2px;
     }
     
     .textF .workflow2 h4{
-        margin-left: -10px;
+        margin-left: -2px;
     }
     
     .textF .workflow3 h4{
-        margin-left: -10px;
+        margin-left: -2px;
     }
     
     .textF .workflow1 p{
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 20px;
     }
     
     .textF .workflow2 p{
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 20px;
     }
     
     .textF .workflow3 p{
-        margin-left: 30px;
+        margin-left: 15px;
         margin-bottom: 20px;
     }
     
@@ -469,7 +469,7 @@ h2{
     }
 
     .textH h3{
-        width: 40%;
+        width: 45%;
         display: flex;
         margin: auto;
         text-align: center;
