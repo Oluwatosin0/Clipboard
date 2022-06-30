@@ -26,6 +26,7 @@ body{
     margin-top: -10px;
     font-size: 25px ;
 }
+
 h1{
     color: #4e4a4a;
     font-size: 28px;
@@ -122,6 +123,7 @@ h2{
 
 .row{
     list-style-type: none;
+    margin-top: 80px;
 }
 
 .row li p{
@@ -320,32 +322,33 @@ h2{
 }
 
 @media only screen and (max-width: 768px){
+    .container{
+        overflow-x: hidden;
+    }
     .container.logo{
       margin-left: auto;
       margin-right: auto;
       text-align: center;
     }
     h1{
-        width: 55%;
+        width: 70%;
        display: flex;
        margin: auto;
        text-align: center;
        margin-bottom: 20px;
-        
     }
 
     .textA p{
-        width: 40%;
+        width: 55%;
         display: flex;
          flex-wrap: wrap;
          margin: auto;
          text-align: center;
-    
     }
 
     .button{
         display: inline-block;
-        margin-left: 120px;
+        margin-left: 98px;
         margin-top: 30px;
         text-align: center;
         
@@ -369,7 +372,7 @@ h2{
     }
     .textC img{
         width: 90%;
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     .textC{
@@ -379,7 +382,7 @@ h2{
     }
 
     .textD h3{
-        width: 50%;
+        width: 45%;
         display: flex;
         margin: auto;
         text-align: center;
@@ -395,7 +398,7 @@ h2{
 
     .textD img{
         width: 80%;
-        margin-left: 50px;
+        margin-left: 35px;
     }
 
     .textE h3{
@@ -415,8 +418,9 @@ h2{
 
     .textF .workflow {
         display: inline-block;
-        margin-left: 50px;
+        margin-left: -10px;
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .textF .workflow1 img{
@@ -463,13 +467,14 @@ h2{
         display: flex;
         margin: auto;
         margin-top: 20px;
+        margin-bottom: 30px;
         padding: 15px;
         text-align: center;
         width: 20%;
     }
 
     .textH h3{
-        width: 45%;
+        width: 55%;
         display: flex;
         margin: auto;
         text-align: center;
@@ -477,16 +482,20 @@ h2{
     }
 
     .textH p{
-        width: 36%;
+        width: 40%;
         display: flex;
         margin: auto;
         text-align: center;
     }
 
     .footer{
+        width: 125%;
         display: inline-block;
         margin: auto;
+        background-color: #faf6f6;
         text-align: center;
+        margin-left: -55px;
+        
     }
 
     .footer .logodiv img{
